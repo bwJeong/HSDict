@@ -5,7 +5,7 @@
 HSDict는 [Blizzard Open API](https://develop.battle.net/)를 활용한 하스스톤의 카드 정보 검색 어플리케이션입니다.
 
 - App 버전: 1.0.0 (App Store)
-- 지원 가능한 iOS 버전: iOS 14 이상
+- 지원 가능한 iOS 버전: iOS 14.1 이상
 
 ## 특징
 다양한 필터 기능 및 터치 기반의 간편한 조작으로 당신이 원하는 하스스톤의 카드 정보를 손쉽게 찾아보세요!
