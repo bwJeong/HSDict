@@ -13,7 +13,7 @@ HSDict is Hearthstone card information search application using the [Blizzard Op
 
 ## Feature
 
-> Reflect the latest update
+> **Reflect the latest update**
 > - Set: United in Stormwind
 > - Keyword: Questline, Tradeable
 
