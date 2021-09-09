@@ -1,5 +1,7 @@
 # HSDict - 하스스톤 카드 사전
 
+<[한국어](https://github.com/bwJeong/HSDict), [Engilsh](https://github.com/bwJeong/HSDict/blob/main/English.md)>
+
 <p align="center"><img src="https://user-images.githubusercontent.com/54430715/119004391-7b1d1280-b9c9-11eb-87c2-f8b0ba32e521.png" width="15%" height="15%"></p>
 
 HSDict는 [Blizzard Open API](https://develop.battle.net/)를 활용한 하스스톤의 카드 정보 검색 어플리케이션입니다.
