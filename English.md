@@ -1,4 +1,4 @@
-# HSDict - Card Dictionary
+# HSDict - Hearthstone Card Dictionary
 
 <[한국어](https://github.com/bwJeong/HSDict), [Engilsh](https://github.com/bwJeong/HSDict/blob/main/English.md)>
 
