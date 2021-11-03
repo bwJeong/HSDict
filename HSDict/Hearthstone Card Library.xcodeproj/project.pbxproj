@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59EE942322B80B9A6CA15C4F /* Pods_Hearthstone_Card_Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E938C9B2E3350B5942476C41 /* Pods_Hearthstone_Card_Library.framework */; };
+		9E0969B0263B919F00E22C48 /* Hearthstone_Card_LibraryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0969AF263B919F00E22C48 /* Hearthstone_Card_LibraryApp.swift */; };
+		9E0969B4263B91A500E22C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0969B3263B91A500E22C48 /* Assets.xcassets */; };
+		9E0969B7263B91A500E22C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0969B6263B91A500E22C48 /* Preview Assets.xcassets */; };
+		9E0969C3263B920400E22C48 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0969C2263B920400E22C48 /* Card.swift */; };
+		9E0969C6263B922D00E22C48 /* CardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0969C5263B922D00E22C48 /* CardBack.swift */; };
+		9E0969C9263BA20E00E22C48 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0969C8263BA20E00E22C48 /* CardManager.swift */; };
+		9E0969CC263BA21A00E22C48 /* CradBackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0969CB263BA21A00E22C48 /* CradBackManager.swift */; };
+		9E0969D9263FBC4D00E22C48 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0969D8263FBC4D00E22C48 /* APIManager.swift */; };
+		9E0969DE2641138C00E22C48 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0969DD2641138C00E22C48 /* MainTabView.swift */; };
+		9E0969E12641175400E22C48 /* CardLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0969E02641175400E22C48 /* CardLibraryView.swift */; };
+		9E0969E626412F3E00E22C48 /* DetailCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0969E526412F3E00E22C48 /* DetailCardView.swift */; };
+		9E0969EF2641834300E22C48 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0969EE2641834300E22C48 /* Extension.swift */; };
+		9E0969F22642359B00E22C48 /* ChildCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0969F12642359B00E22C48 /* ChildCard.swift */; };
+		9E0969F52642364B00E22C48 /* ChildCardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0969F42642364B00E22C48 /* ChildCardManager.swift */; };
+		9E0969F92642524400E22C48 /* KeywordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0969F82642524400E22C48 /* KeywordView.swift */; };
+		9E0969FC264252AB00E22C48 /* StrokeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0969FB264252AB00E22C48 /* StrokeText.swift */; };
+		9E096A0426437E0C00E22C48 /* CardBackLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A0326437E0C00E22C48 /* CardBackLibraryView.swift */; };
+		9E096A082643825500E22C48 /* DetailCardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A072643825500E22C48 /* DetailCardBackView.swift */; };
+		9E096A0C2643838F00E22C48 /* SubText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A0B2643838F00E22C48 /* SubText.swift */; };
+		9E096A112643B58600E22C48 /* FilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A102643B58600E22C48 /* FilterBar.swift */; };
+		9E096A162643CF2000E22C48 /* CardSetFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A152643CF2000E22C48 /* CardSetFilterView.swift */; };
+		9E096A192643D4D000E22C48 /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A182643D4D000E22C48 /* Metadata.swift */; };
+		9E096A1D2643DCEE00E22C48 /* ClassFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A1C2643DCEE00E22C48 /* ClassFilterView.swift */; };
+		9E096A202643E10200E22C48 /* ManaCostFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A1F2643E10200E22C48 /* ManaCostFilterView.swift */; };
+		9E096A232643E9BE00E22C48 /* SearchFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A222643E9BE00E22C48 /* SearchFilterView.swift */; };
+		9E096A262644D14D00E22C48 /* DetailFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A252644D14D00E22C48 /* DetailFilterView.swift */; };
+		9E096A292644DFFD00E22C48 /* AttackFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A282644DFFD00E22C48 /* AttackFilterView.swift */; };
+		9E096A2E2644E16000E22C48 /* HealthFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A2D2644E16000E22C48 /* HealthFilterView.swift */; };
+		9E096A312644E24B00E22C48 /* CardTypeFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A302644E24B00E22C48 /* CardTypeFilterView.swift */; };
+		9E096A3C2644FAAC00E22C48 /* GradeFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A3B2644FAAC00E22C48 /* GradeFilterView.swift */; };
+		9E096A3F2644FD0300E22C48 /* MinionTypeFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A3E2644FD0300E22C48 /* MinionTypeFilterView.swift */; };
+		9E096A422644FF3C00E22C48 /* KeywordFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A412644FF3C00E22C48 /* KeywordFilterView.swift */; };
+		9E096A46264503B700E22C48 /* SpellSchoolFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A45264503B700E22C48 /* SpellSchoolFilterView.swift */; };
+		9E096A4E2648CC1700E22C48 /* FilterCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A4D2648CC1700E22C48 /* FilterCheckView.swift */; };
+		9E096A532649141A00E22C48 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A522649141A00E22C48 /* SettingView.swift */; };
+		9E096A5A2649151C00E22C48 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E096A592649151C00E22C48 /* MailView.swift */; };
+		9E096A68264A4B2900E22C48 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E096A67264A4B2900E22C48 /* Launch Screen.storyboard */; };
+		9E3BBFED26E73E4300DB0E2F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E3BBFEF26E73E4300DB0E2F /* Localizable.strings */; };
+		9E3BBFF226F0903300DB0E2F /* OAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3BBFF126F0903300DB0E2F /* OAuth.swift */; };
+		9E77FA06273290130060F267 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E77FA05273290130060F267 /* Client.swift */; };
+		9E7C1A63264D099A003320E6 /* NetworkStatusMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7C1A62264D099A003320E6 /* NetworkStatusMonitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C1843CC1B4010E4B4467DE9 /* Pods-Hearthstone Card Library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hearthstone Card Library.debug.xcconfig"; path = "Target Support Files/Pods-Hearthstone Card Library/Pods-Hearthstone Card Library.debug.xcconfig"; sourceTree = "<group>"; };
+		7463CC99EA505E59C1A0DCFA /* Pods-Hearthstone Card Library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hearthstone Card Library.release.xcconfig"; path = "Target Support Files/Pods-Hearthstone Card Library/Pods-Hearthstone Card Library.release.xcconfig"; sourceTree = "<group>"; };
+		9E0969AC263B919F00E22C48 /* Hearthstone Card Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hearthstone Card Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0969AF263B919F00E22C48 /* Hearthstone_Card_LibraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hearthstone_Card_LibraryApp.swift; sourceTree = "<group>"; };
+		9E0969B3263B91A500E22C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E0969B6263B91A500E22C48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E0969B8263B91A500E22C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E0969C2263B920400E22C48 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9E0969C5263B922D00E22C48 /* CardBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBack.swift; sourceTree = "<group>"; };
+		9E0969C8263BA20E00E22C48 /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		9E0969CB263BA21A00E22C48 /* CradBackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CradBackManager.swift; sourceTree = "<group>"; };
+		9E0969D8263FBC4D00E22C48 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		9E0969DD2641138C00E22C48 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		9E0969E02641175400E22C48 /* CardLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLibraryView.swift; sourceTree = "<group>"; };
+		9E0969E526412F3E00E22C48 /* DetailCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardView.swift; sourceTree = "<group>"; };
+		9E0969EE2641834300E22C48 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9E0969F12642359B00E22C48 /* ChildCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildCard.swift; sourceTree = "<group>"; };
+		9E0969F42642364B00E22C48 /* ChildCardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildCardManager.swift; sourceTree = "<group>"; };
+		9E0969F82642524400E22C48 /* KeywordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordView.swift; sourceTree = "<group>"; };
+		9E0969FB264252AB00E22C48 /* StrokeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeText.swift; sourceTree = "<group>"; };
+		9E096A0326437E0C00E22C48 /* CardBackLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackLibraryView.swift; sourceTree = "<group>"; };
+		9E096A072643825500E22C48 /* DetailCardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCardBackView.swift; sourceTree = "<group>"; };
+		9E096A0B2643838F00E22C48 /* SubText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubText.swift; sourceTree = "<group>"; };
+		9E096A102643B58600E22C48 /* FilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterBar.swift; sourceTree = "<group>"; };
+		9E096A152643CF2000E22C48 /* CardSetFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSetFilterView.swift; sourceTree = "<group>"; };
+		9E096A182643D4D000E22C48 /* Metadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metadata.swift; sourceTree = "<group>"; };
+		9E096A1C2643DCEE00E22C48 /* ClassFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassFilterView.swift; sourceTree = "<group>"; };
+		9E096A1F2643E10200E22C48 /* ManaCostFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManaCostFilterView.swift; sourceTree = "<group>"; };
+		9E096A222643E9BE00E22C48 /* SearchFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterView.swift; sourceTree = "<group>"; };
+		9E096A252644D14D00E22C48 /* DetailFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFilterView.swift; sourceTree = "<group>"; };
+		9E096A282644DFFD00E22C48 /* AttackFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackFilterView.swift; sourceTree = "<group>"; };
+		9E096A2D2644E16000E22C48 /* HealthFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFilterView.swift; sourceTree = "<group>"; };
+		9E096A302644E24B00E22C48 /* CardTypeFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTypeFilterView.swift; sourceTree = "<group>"; };
+		9E096A3B2644FAAC00E22C48 /* GradeFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeFilterView.swift; sourceTree = "<group>"; };
+		9E096A3E2644FD0300E22C48 /* MinionTypeFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinionTypeFilterView.swift; sourceTree = "<group>"; };
+		9E096A412644FF3C00E22C48 /* KeywordFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordFilterView.swift; sourceTree = "<group>"; };
+		9E096A45264503B700E22C48 /* SpellSchoolFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellSchoolFilterView.swift; sourceTree = "<group>"; };
+		9E096A4D2648CC1700E22C48 /* FilterCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCheckView.swift; sourceTree = "<group>"; };
+		9E096A522649141A00E22C48 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		9E096A592649151C00E22C48 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		9E096A67264A4B2900E22C48 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9E3BBFEE26E73E4300DB0E2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9E3BBFF026E73E7200DB0E2F /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9E3BBFF126F0903300DB0E2F /* OAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuth.swift; sourceTree = "<group>"; };
+		9E77FA05273290130060F267 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		9E7C1A62264D099A003320E6 /* NetworkStatusMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatusMonitor.swift; sourceTree = "<group>"; };
+		E938C9B2E3350B5942476C41 /* Pods_Hearthstone_Card_Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hearthstone_Card_Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E0969A9263B919F00E22C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EE942322B80B9A6CA15C4F /* Pods_Hearthstone_Card_Library.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		310627DA9EDF5F791DAF6B59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E938C9B2E3350B5942476C41 /* Pods_Hearthstone_Card_Library.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B15C4AF8B98E3CDD686B2A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C1843CC1B4010E4B4467DE9 /* Pods-Hearthstone Card Library.debug.xcconfig */,
+				7463CC99EA505E59C1A0DCFA /* Pods-Hearthstone Card Library.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E0969A3263B919F00E22C48 = {
+			isa = PBXGroup;
+			children = (
+				9E0969AE263B919F00E22C48 /* Hearthstone Card Library */,
+				9E0969AD263B919F00E22C48 /* Products */,
+				3B15C4AF8B98E3CDD686B2A8 /* Pods */,
+				310627DA9EDF5F791DAF6B59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E0969AD263B919F00E22C48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E0969AC263B919F00E22C48 /* Hearthstone Card Library.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E0969AE263B919F00E22C48 /* Hearthstone Card Library */ = {
+			isa = PBXGroup;
+			children = (
+				9E3BBFEF26E73E4300DB0E2F /* Localizable.strings */,
+				9E0969AF263B919F00E22C48 /* Hearthstone_Card_LibraryApp.swift */,
+				9E096A182643D4D000E22C48 /* Metadata.swift */,
+				9E77FA05273290130060F267 /* Client.swift */,
+				9E0969D8263FBC4D00E22C48 /* APIManager.swift */,
+				9E7C1A62264D099A003320E6 /* NetworkStatusMonitor.swift */,
+				9E096A67264A4B2900E22C48 /* Launch Screen.storyboard */,
+				9E0969C0263B91C700E22C48 /* Model */,
+				9E0969BF263B91BF00E22C48 /* View */,
+				9E0969C1263B91CE00E22C48 /* ViewModel */,
+				9E0969B3263B91A500E22C48 /* Assets.xcassets */,
+				9E0969B8263B91A500E22C48 /* Info.plist */,
+				9E0969B5263B91A500E22C48 /* Preview Content */,
+			);
+			path = "Hearthstone Card Library";
+			sourceTree = "<group>";
+		};
+		9E0969B5263B91A500E22C48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E0969B6263B91A500E22C48 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E0969BF263B91BF00E22C48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E0969EE2641834300E22C48 /* Extension.swift */,
+				9E0969FB264252AB00E22C48 /* StrokeText.swift */,
+				9E096A0B2643838F00E22C48 /* SubText.swift */,
+				9E0969FF26427E9D00E22C48 /* MainTabView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E0969C0263B91C700E22C48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E3BBFF126F0903300DB0E2F /* OAuth.swift */,
+				9E0969C2263B920400E22C48 /* Card.swift */,
+				9E0969F12642359B00E22C48 /* ChildCard.swift */,
+				9E0969C5263B922D00E22C48 /* CardBack.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E0969C1263B91CE00E22C48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9E0969C8263BA20E00E22C48 /* CardManager.swift */,
+				9E0969F42642364B00E22C48 /* ChildCardManager.swift */,
+				9E0969CB263BA21A00E22C48 /* CradBackManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9E0969FF26427E9D00E22C48 /* MainTabView */ = {
+			isa = PBXGroup;
+			children = (
+				9E0969DD2641138C00E22C48 /* MainTabView.swift */,
+				9E096A0026427EF400E22C48 /* CardLibraryView */,
+				9E096A51264913BF00E22C48 /* SettingView */,
+				9E096A0126427F1D00E22C48 /* DetailCardView */,
+				9E096A062643822900E22C48 /* DetailCardBackView */,
+			);
+			path = MainTabView;
+			sourceTree = "<group>";
+		};
+		9E096A0026427EF400E22C48 /* CardLibraryView */ = {
+			isa = PBXGroup;
+			children = (
+				9E0969E02641175400E22C48 /* CardLibraryView.swift */,
+				9E096A4D2648CC1700E22C48 /* FilterCheckView.swift */,
+				9E096A132643B58E00E22C48 /* FilterBar */,
+				9E096A0326437E0C00E22C48 /* CardBackLibraryView.swift */,
+			);
+			path = CardLibraryView;
+			sourceTree = "<group>";
+		};
+		9E096A0126427F1D00E22C48 /* DetailCardView */ = {
+			isa = PBXGroup;
+			children = (
+				9E0969E526412F3E00E22C48 /* DetailCardView.swift */,
+				9E0969F82642524400E22C48 /* KeywordView.swift */,
+			);
+			path = DetailCardView;
+			sourceTree = "<group>";
+		};
+		9E096A062643822900E22C48 /* DetailCardBackView */ = {
+			isa = PBXGroup;
+			children = (
+				9E096A072643825500E22C48 /* DetailCardBackView.swift */,
+			);
+			path = DetailCardBackView;
+			sourceTree = "<group>";
+		};
+		9E096A132643B58E00E22C48 /* FilterBar */ = {
+			isa = PBXGroup;
+			children = (
+				9E096A102643B58600E22C48 /* FilterBar.swift */,
+				9E096A152643CF2000E22C48 /* CardSetFilterView.swift */,
+				9E096A1C2643DCEE00E22C48 /* ClassFilterView.swift */,
+				9E096A1F2643E10200E22C48 /* ManaCostFilterView.swift */,
+				9E096A222643E9BE00E22C48 /* SearchFilterView.swift */,
+				9E096A2B2644E03000E22C48 /* DetailFilterView */,
+			);
+			path = FilterBar;
+			sourceTree = "<group>";
+		};
+		9E096A2B2644E03000E22C48 /* DetailFilterView */ = {
+			isa = PBXGroup;
+			children = (
+				9E096A252644D14D00E22C48 /* DetailFilterView.swift */,
+				9E096A282644DFFD00E22C48 /* AttackFilterView.swift */,
+				9E096A2D2644E16000E22C48 /* HealthFilterView.swift */,
+				9E096A302644E24B00E22C48 /* CardTypeFilterView.swift */,
+				9E096A3E2644FD0300E22C48 /* MinionTypeFilterView.swift */,
+				9E096A45264503B700E22C48 /* SpellSchoolFilterView.swift */,
+				9E096A3B2644FAAC00E22C48 /* GradeFilterView.swift */,
+				9E096A412644FF3C00E22C48 /* KeywordFilterView.swift */,
+			);
+			path = DetailFilterView;
+			sourceTree = "<group>";
+		};
+		9E096A51264913BF00E22C48 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				9E096A522649141A00E22C48 /* SettingView.swift */,
+				9E096A592649151C00E22C48 /* MailView.swift */,
+			);
+			path = SettingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E0969AB263B919F00E22C48 /* Hearthstone Card Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E0969BB263B91A500E22C48 /* Build configuration list for PBXNativeTarget "Hearthstone Card Library" */;
+			buildPhases = (
+				7DAB652DAB9F42781FEC27B4 /* [CP] Check Pods Manifest.lock */,
+				9E0969A8263B919F00E22C48 /* Sources */,
+				9E0969A9263B919F00E22C48 /* Frameworks */,
+				9E0969AA263B919F00E22C48 /* Resources */,
+				EA7A047363626C24224C857C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hearthstone Card Library";
+			productName = "Hearthstone Card Library";
+			productReference = 9E0969AC263B919F00E22C48 /* Hearthstone Card Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E0969A4263B919F00E22C48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9E0969AB263B919F00E22C48 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9E0969A7263B919F00E22C48 /* Build configuration list for PBXProject "Hearthstone Card Library" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = 9E0969A3263B919F00E22C48;
+			productRefGroup = 9E0969AD263B919F00E22C48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E0969AB263B919F00E22C48 /* Hearthstone Card Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E0969AA263B919F00E22C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E096A68264A4B2900E22C48 /* Launch Screen.storyboard in Resources */,
+				9E3BBFED26E73E4300DB0E2F /* Localizable.strings in Resources */,
+				9E0969B7263B91A500E22C48 /* Preview Assets.xcassets in Resources */,
+				9E0969B4263B91A500E22C48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DAB652DAB9F42781FEC27B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hearthstone Card Library-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7A047363626C24224C857C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hearthstone Card Library/Pods-Hearthstone Card Library-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hearthstone Card Library/Pods-Hearthstone Card Library-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hearthstone Card Library/Pods-Hearthstone Card Library-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E0969A8263B919F00E22C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0969FC264252AB00E22C48 /* StrokeText.swift in Sources */,
+				9E096A292644DFFD00E22C48 /* AttackFilterView.swift in Sources */,
+				9E77FA06273290130060F267 /* Client.swift in Sources */,
+				9E0969CC263BA21A00E22C48 /* CradBackManager.swift in Sources */,
+				9E096A192643D4D000E22C48 /* Metadata.swift in Sources */,
+				9E096A162643CF2000E22C48 /* CardSetFilterView.swift in Sources */,
+				9E0969C6263B922D00E22C48 /* CardBack.swift in Sources */,
+				9E096A0426437E0C00E22C48 /* CardBackLibraryView.swift in Sources */,
+				9E096A1D2643DCEE00E22C48 /* ClassFilterView.swift in Sources */,
+				9E0969F52642364B00E22C48 /* ChildCardManager.swift in Sources */,
+				9E0969DE2641138C00E22C48 /* MainTabView.swift in Sources */,
+				9E096A2E2644E16000E22C48 /* HealthFilterView.swift in Sources */,
+				9E0969F92642524400E22C48 /* KeywordView.swift in Sources */,
+				9E096A312644E24B00E22C48 /* CardTypeFilterView.swift in Sources */,
+				9E0969C3263B920400E22C48 /* Card.swift in Sources */,
+				9E096A422644FF3C00E22C48 /* KeywordFilterView.swift in Sources */,
+				9E096A4E2648CC1700E22C48 /* FilterCheckView.swift in Sources */,
+				9E096A0C2643838F00E22C48 /* SubText.swift in Sources */,
+				9E0969C9263BA20E00E22C48 /* CardManager.swift in Sources */,
+				9E096A5A2649151C00E22C48 /* MailView.swift in Sources */,
+				9E096A3C2644FAAC00E22C48 /* GradeFilterView.swift in Sources */,
+				9E096A262644D14D00E22C48 /* DetailFilterView.swift in Sources */,
+				9E0969EF2641834300E22C48 /* Extension.swift in Sources */,
+				9E096A532649141A00E22C48 /* SettingView.swift in Sources */,
+				9E096A202643E10200E22C48 /* ManaCostFilterView.swift in Sources */,
+				9E096A3F2644FD0300E22C48 /* MinionTypeFilterView.swift in Sources */,
+				9E096A112643B58600E22C48 /* FilterBar.swift in Sources */,
+				9E0969B0263B919F00E22C48 /* Hearthstone_Card_LibraryApp.swift in Sources */,
+				9E3BBFF226F0903300DB0E2F /* OAuth.swift in Sources */,
+				9E0969E12641175400E22C48 /* CardLibraryView.swift in Sources */,
+				9E096A082643825500E22C48 /* DetailCardBackView.swift in Sources */,
+				9E0969F22642359B00E22C48 /* ChildCard.swift in Sources */,
+				9E0969E626412F3E00E22C48 /* DetailCardView.swift in Sources */,
+				9E0969D9263FBC4D00E22C48 /* APIManager.swift in Sources */,
+				9E096A232643E9BE00E22C48 /* SearchFilterView.swift in Sources */,
+				9E096A46264503B700E22C48 /* SpellSchoolFilterView.swift in Sources */,
+				9E7C1A63264D099A003320E6 /* NetworkStatusMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E3BBFEF26E73E4300DB0E2F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E3BBFEE26E73E4300DB0E2F /* en */,
+				9E3BBFF026E73E7200DB0E2F /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E0969B9263B91A500E22C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E0969BA263B91A500E22C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E0969BC263B91A500E22C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1843CC1B4010E4B4467DE9 /* Pods-Hearthstone Card Library.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2.0;
+				DEVELOPMENT_ASSET_PATHS = "\"Hearthstone Card Library/Preview Content\"";
+				DEVELOPMENT_TEAM = L5BRL8USGZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hearthstone Card Library/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bwJeong.Hearthstone-Card-Library";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9E0969BD263B91A500E22C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7463CC99EA505E59C1A0DCFA /* Pods-Hearthstone Card Library.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2.0;
+				DEVELOPMENT_ASSET_PATHS = "\"Hearthstone Card Library/Preview Content\"";
+				DEVELOPMENT_TEAM = L5BRL8USGZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Hearthstone Card Library/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bwJeong.Hearthstone-Card-Library";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E0969A7263B919F00E22C48 /* Build configuration list for PBXProject "Hearthstone Card Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0969B9263B91A500E22C48 /* Debug */,
+				9E0969BA263B91A500E22C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E0969BB263B91A500E22C48 /* Build configuration list for PBXNativeTarget "Hearthstone Card Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0969BC263B91A500E22C48 /* Debug */,
+				9E0969BD263B91A500E22C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E0969A4263B919F00E22C48 /* Project object */;
+}

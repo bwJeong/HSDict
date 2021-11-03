@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Hearthstone Card Library/Pods-Hearthstone Card Library-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework

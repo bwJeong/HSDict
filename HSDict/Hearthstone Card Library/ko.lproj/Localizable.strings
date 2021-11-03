@@ -1,0 +1,286 @@
+/* 
+  Localizable.strings
+  Hearthstone Card Library
+
+  Created by Byungwook Jeong on 2021/09/07.
+  
+*/
+
+// MainTabView
+"tab-1-title" = "카드 라이브러리";
+"tab-2-title" = "세팅";
+"network-failure" = "네트워크 연결 불가능";
+"close-button-title" = "닫기";
+
+// CardLibraryView
+"card-navigation-title" = "카드 라이브러리";
+"card-navigation-button-title" = "카드 뒷면";
+"number-of-cards-found %lld" = "%lld개 카드 찾음, 검색 조건: ";
+"no-cards-found" = "카드를 찾을 수 없습니다.";
+
+// DetailCardView
+"type" = "- 종류:";
+"minion-type" = "- 하수인 종류:";
+"spell-school-type" = "- 주문 계열:";
+"rarity" = "- 등급:";
+"set" = "- 세트:";
+"class" = "- 직업:";
+"cost-to-craft" = "- 제작 비용:";
+"disenchanting-yield" = "- 마력 추출 시 획득하는 가루:";
+"artist" = "- 아티스트:";
+"collectible" = "-수집 가능";
+"not-collectible" = "- 수집 불가능";
+"learn-more" = "- 자세한 내용:";
+"related-cards" = "- 관련 카드:";
+"common-cost-to-craft" = "50 / 400 (황금)";
+"rare-cost-to-craft" = "100 / 800 (황금)";
+"epic-cost-to-craft" = "400 / 1600 (황금)";
+"legendary-cost-to-craft" = "1600 / 3200 (황금)";
+"common-disenchanting-yield" = "5 / 50 (황금)";
+"rare-disenchanting-yield" = "20 / 100 (황금)";
+"epic-disenchanting-yield" = "100 / 400 (황금)";
+"legendary-disenchanting-yield" = "400 / 1600 (황금)";
+
+// FilterCheckView
+"mana: %@" = "마나: %@";
+"attack: %@" = "공격력: %@";
+"health: %@" = "생명력: %@";
+
+// FilterBar
+"filter-button-title" = "필터";
+
+// CardSetFilterView
+"standard" = "정규 카드";
+"wild" = "야생 카드";
+"classic-cards" = "오리지널 카드";
+
+// SearchFilterView
+"search-textfield-placeholder" = "검색";
+
+// DetailFilterView
+"attack-button-title" = "공격력";
+"health-button-title" = "생명력";
+"card-type-button-title" = "카드 종류";
+"minion-type-button-title" = "하수인 종류";
+"spell-school-button-title" = "주문 계열";
+"rarity-button-title" = "등급";
+"keywords-button-title" = "키워드";
+
+// AttackFilterView
+"any-attack" = "모든 공격력";
+
+// HealthFilterView
+"any-health" = "모든 생명력";
+
+// CardTypeFilterView
+"any-card-type" = "모든 종류";
+
+// MinionTypeFilterView
+"any-minion-type" = "모든 종류";
+
+// SpellSchoolFilterView
+"any-spell-school" = "모든 속성";
+
+// GradeFilterView
+"any-rarity" = "모든 등급";
+
+// KeywordFilterView
+"any-keyword" = "모든 키워드";
+
+// CardBackView
+"card-back-navigation-title" = "카드 뒷면";
+"card-back-navigation-button-title" = "카드 라이브러리";
+"filtered-card-backs-info %lld" = "%lld개 카드 뒷면 찾음";
+
+// DetailCardBackView
+"card-back-type" = "- 카드 뒷면 종류:";
+
+// SettingView
+"setting-navigation-title" = "세팅";
+"language-button-title" = "언어";
+"feedback-button-title" = "피드백";
+"bug-report-button-title" = "버그 리포트";
+
+// - MARK: Metadata
+// Standard Cards
+"united-in-stormwind" = "스톰윈드";
+"forged-in-the-barrens" = "불모의 땅";
+"madness-at-the-darkmoon-faire" = "광기의 다크문 축제";
+"scholomance-academy" = "스칼로맨스 아카데미";
+"ashes-of-outland" = "황폐한 아웃랜드";
+"core" = "핵심";
+
+// Wild Cards
+"demonhunter-initiate" = "수습 악마사냥꾼";
+"galakronds-awakening" = "갈라크론드의 부활";
+"descent-of-dragons" = "용의 강림";
+"saviors-of-uldum" = "울둠의 구원자";
+"rise-of-shadows" = "어둠의 반격";
+"rastakhans-rumble" = "라스타칸의 대난투";
+"the-boomsday-project" = "박사 붐의 폭심만만 프로젝트";
+"the-witchwood" = "마녀숲";
+"kobolds-and-catacombs" = "코볼트와 지하 미궁";
+"knights-of-the-frozen-throne" = "얼어붙은 왕좌의 기사들";
+"journey-to-ungoro" = "운고로를 향한 여정";
+"mean-streets-of-gadgetzan" = "비열한 거리의 가젯잔";
+"one-night-in-karazhan" = "한여름 밤의 카라잔";
+"whispers-of-the-old-gods" = "고대 신의 속삭임";
+"league-of-explorers" = "탐험가 연맹";
+"the-grand-tournament" = "대 마상시합";
+"blackrock-mountain" = "검은바위 산";
+"goblins-vs-gnomes" = "고블린 대 노움";
+"naxxramas" = "낙스라마스의 저주";
+"legacy" = "고전";
+
+// Class
+"demonhunter" = "악마사냥꾼";
+"druid" = "드루이드";
+"hunter" = "사냥꾼";
+"mage" = "마법사";
+"paladin" = "성기사";
+"priest" = "사제";
+"rogue" = "도적";
+"shaman" = "주술사";
+"warlock" = "흑마법사";
+"warrior" = "전사";
+"neutral" = "중립";
+
+// Card Type
+"hero" = "영웅";
+"minion" = "하수인";
+"spell" = "주문";
+"weapon" = "무기";
+
+// Minion Type
+"murloc" = "멀록";
+"demon" = "악마";
+"mech" = "기계";
+"elemental" = "정령";
+"beast" = "야수";
+"totem" = "토템";
+"pirate" = "해적";
+"dragon" = "용족";
+"all" = "모두";
+"quilboar" = "가시멧돼지";
+
+// Spell School
+"arcane" = "비전";
+"fire" = "화염";
+"frost" = "냉기";
+"nature" = "자연";
+"holy" = "신성";
+"shadow" = "암흑";
+"fel" = "지옥";
+
+// Rarity
+"common" = "일반";
+"free" = "무료";
+"rare" = "희귀";
+"epic" = "특급";
+"legendary" = "전설";
+
+// Keyword
+"taunt" = "도발";
+"spellpower" = "주문 공격력";
+"divine-shield" = "천상의 보호막";
+"charge" = "돌진";
+"secret" = "비밀";
+"stealth" = "은신";
+"battlecry" = "전투의 함성";
+"freeze" = "빙결";
+"windfury" = "질풍";
+"deathrattle" = "죽음의 메아리";
+"combo" = "연계";
+"overload" = "과부하";
+"silence" = "침묵";
+"counter" = "차단";
+"immune" = "면역";
+"spare-part" = "예비 부품";
+"inspire" = "격려";
+"discover" = "발견";
+"quest" = "퀘스트";
+"poisonous" = "독성";
+"adapt" = "적응";
+"lifesteal" = "생명력 흡수";
+"recruit" = "소집";
+"echo" = "잔상";
+"rush" = "속공";
+"overkill" = "압살";
+"startofgamekeyword" = "개전";
+"modular" = "합체";
+"evilzug" = "졸개";
+"twinspell" = "이중 주문";
+"mega-windfury" = "광풍";
+"reborn" = "환생";
+"empower" = "기원";
+"outcast" = "추방자";
+"spellburst" = "주문폭주";
+"sidequest" = "부가 퀘스트";
+"corrupt" = "타락";
+"start-of-combat" = "기선 제압";
+"questline" = "퀘스트 전개";
+"trade" = "교환성";
+"frenzy" = "광폭";
+"spellpowernature" = "자연 주문 공격력";
+"blood-gem" = "혈석";
+
+// Keyword Comment
+"taunt-comment" = "적은 도발 능력이 있는 하수인을 먼저 공격해야 합니다.";
+"spellpower-comment" = "주문 카드가 추가 피해를 줍니다.";
+"divine-shield-comment" = "보호막이 있는 하수인은 피해를 한 번 무시힙니다.";
+"charge-comment" = "보호막이 있는 하수인은 피해를 한 번 무시힙니다.";
+"secret-comment" = "특정 조건이 갖추어질 때까지 숨겨져 있습니다.";
+"stealth-comment" = "공격하기 전에는 공격 받거나 대상이 되지 않습니다.";
+"battlecry-comment" = "카드를 손에서 낼 때 효과가 발동합니다.";
+"freeze-comment" = "얼어붙은 캐릭터는 다음 공격을 할 수 없습니다.";
+"windfury-comment" = "한 턴에 두 번 공격할 수 있습니다.";
+"deathrattle-comment" = "죽으면 효과가 발동합니다.";
+"combo-comment" = "이번 턴에 이미 낸 카드가 있으면 추가 효과를 냅니다.";
+"overload-comment" = "과부하에 걸리면 다음 턴에 사용할 수 있는 마나가 제한됩니다.";
+"silence-comment" = "모든 카드의 특수 능력과 강화 효과를 제거합니다.";
+"counter-comment" = "차단당한 카드는 효과가 발동하지 못합니다.";
+"immune-comment" = "면역인 캐릭터에게는 피해를 줄 수 없습니다.";
+"spare-part-comment" = "비용이 1이고 가벼운 효과를 내는 주문입니다.";
+"inspire-comment" = "영웅 능력을 사용하면 효과가 발동합니다.";
+"discover-comment" = "세 카드 중 하나를 선택해서 내 손으로 가져옵니다.";
+"quest-comment" = "언제나 내 시작 카드에 있습니다. 완료하면 보상을 얻습니다.";
+"poisonous-comment" = "이 카드에 피해를 받은 하수인을 무조건 처치합니다.";
+"adapt-comment" = "세 효과 중 하나를 선택합니다.";
+"lifesteal-comment" = "피해를 준만큼 내 영웅의 생명력을 회복시킵니다.";
+"recruit-comment" = "내 덱에서 하수인을 하나 소환합니다.";
+"echo-comment" = "내가 낸 턴에 여러번 낼 수 있습니다. 잔상으로 생성된 카드는 비용이 (1)보다 낮아지진 않습니다.";
+"rush-comment" = "하수인을 즉시 공격할 수 있습니다.";
+"overkill-comment" = "내 턴에, 공격하는 대상의 남은 생명력보다 큰 피해를 주면 효과가 발동합니다.";
+"startofgamekeyword-comment" = "첫 번째 턴이 시작하기 전에 효과가 발동합니다.";
+"modular-comment" = "내 기계 왼쪽에 내면 합체합니다!";
+"evilzug-comment" = "졸개는 비용이 1인 전투의 함성 하수인입니다.";
+"twinspell-comment" = "두 번 시전할 수 있습니다.";
+"mega-windfury-comment" = "한 턴에 네 번 공격할 수 있습니다.";
+"reborn-comment" = "처음 죽으면 생명력이 1인 상태로 부활합니다.";
+"empower-comment" = "갈라크론드의 힘을 사용합니다.";
+"outcast-comment" = "손에서 가장 왼쪽 또는 오른쪽에 있으면 추가 효과를 냅니다.";
+"spellburst-comment" = "주문이 시전된 후에 발동하는 일회용 효과입니다.";
+"sidequest-comment" = "완료하면 보상을 얻습니다.";
+"corrupt-comment" = "더 높은 비용의 카드를 낸 후에 손에서 강화됩니다.";
+"start-of-combat-comment" = "전투가 시작될 때 효과가 발동합니다.";
+"questline-comment" = "언제나 내 시작 카드에 있습니다. 완료하면 보상을 얻습니다. 최대 3번 완료할 수 있습니다!";
+"trade-comment" = "이 카드를 덱에 끌어 옮기면 마나를 1 소모해 새로운 카드를 뽑습니다.";
+"frenzy-comment" = "피해를 받고 생존한 후에 발동하는 일회용 효과입니다.";
+"spellpowernature-comment" = "자연 주문 카드가 추가 피해를 줍니다.";
+"blood-gem-comment" = "아군 하수인에게 +1/+1을 부여하는 주문입니다.";
+
+// Card Back Sort Category
+"basic" = "기본";
+"fireside" = "와글와글 하스스톤";
+"achieve" = "업적";
+"heroes" = "영웅";
+"season" = "시즌";
+"legend" = "전설";
+"esports" = "e스포츠";
+"game_license" = "게임";
+"promotion" = "프로모션";
+"pre_purcahse" = "예약 구매";
+"blizzard" = "블리자드";
+"golden" = "황금";
+"events" = "대회";
+

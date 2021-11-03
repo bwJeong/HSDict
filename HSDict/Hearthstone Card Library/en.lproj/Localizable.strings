@@ -1,0 +1,285 @@
+/* 
+  Localizable.strings
+  Hearthstone Card Library
+
+  Created by Byungwook Jeong on 2021/09/07.
+  
+*/
+
+// MainTabView
+"tab-1-title" = "Card Library";
+"tab-2-title" = "Setting";
+"network-failure" = "No Network Connection";
+"close-button-title" = "Close";
+
+// CardLibraryView
+"card-navigation-title" = "Card Library";
+"card-navigation-button-title" = "Card Back";
+"number-of-cards-found %lld" = "%lld cards found for";
+"no-cards-found" = "No cards found.";
+
+// DetailCardView
+"type" = "- Type:";
+"minion-type" = "- Minion Type:";
+"spell-school-type" = "- Spell School:";
+"rarity" = "- Rarity:";
+"set" = "- Set:";
+"class" = "- Class:";
+"cost-to-craft" = "- Cost to Craft:";
+"disenchanting-yield" = "- Disenchanting Yield:";
+"artist" = "- Artist:";
+"collectible" = "- Collectible";
+"not-collectible" = "- Not Collectible";
+"learn-more" = "- Learn More:";
+"related-cards" = "- Related Cards:";
+"common-cost-to-craft" = "50 / 400 (Golden)";
+"rare-cost-to-craft" = "100 / 800 (Golden)";
+"epic-cost-to-craft" = "400 / 1600 (Golden)";
+"legendary-cost-to-craft" = "1600 / 3200 (Golden)";
+"common-disenchanting-yield" = "5 / 50 (Golden)";
+"rare-disenchanting-yield" = "20 / 100 (Golden)";
+"epic-disenchanting-yield" = "100 / 400 (Golden)";
+"legendary-disenchanting-yield" = "400 / 1600 (Golden)";
+
+// FilterCheckView
+"mana: %@" = "Mana: %@";
+"attack: %@" = "Attack: %@";
+"health: %@" = "Health: %@";
+
+// FilterBar
+"filter-button-title" = "Filter";
+
+// CardSetFilterView
+"standard" = "Standard Cards";
+"wild" = "Wild Cards";
+"classic-cards" = "Classic Cards";
+
+// SearchFilterView
+"search-textfield-placeholder" = "Search";
+
+// DetailFilterView
+"attack-button-title" = "Attack";
+"health-button-title" = "Health";
+"card-type-button-title" = "Card Type";
+"minion-type-button-title" = "Minion Type";
+"spell-school-button-title" = "Spell School";
+"rarity-button-title" = "Rarity";
+"keywords-button-title" = "Keywords";
+
+// AttackFilterView
+"any-attack" = "Any Attack";
+
+// HealthFilterView
+"any-health" = "Any Health";
+
+// CardTypeFilterView
+"any-card-type" = "Any Type";
+
+// MinionTypeFilterView
+"any-minion-type" = "Any Type";
+
+// SpellSchoolFilterView
+"any-spell-school" = "Any School";
+
+// GradeFilterView
+"any-rarity" = "Any Rarity";
+
+// KeywordFilterView
+"any-keyword" = "Any Keyword";
+
+// CardBackView
+"card-back-navigation-title" = "Card Back";
+"card-back-navigation-button-title" = "Card Library";
+"filtered-card-backs-info %lld" = "%lld card backs found";
+
+// DetailCardBackView
+"card-back-type" = "- Card Back Type:";
+
+// SettingView
+"setting-navigation-title" = "Setting";
+"language-button-title" = "Language";
+"feedback-button-title" = "Feedback";
+"bug-report-button-title" = "Bug Report";
+
+// - MARK: Metadata
+// Standard Cards
+"united-in-stormwind" = "United in Stormwind";
+"forged-in-the-barrens" = "Forged in the Barrens";
+"madness-at-the-darkmoon-faire" = "Madness at the Darkmoon Faire";
+"scholomance-academy" = "Scholomance Academy";
+"ashes-of-outland" = "Ashes of Outland";
+"core" = "Core";
+
+// Wild Cards
+"demonhunter-initiate" = "Demon Hunter Initiate";
+"galakronds-awakening" = "Galakrond's Awakening";
+"descent-of-dragons" = "Descent of Dragons";
+"saviors-of-uldum" = "Saviors of Uldum";
+"rise-of-shadows" = "Rise of Shadows";
+"rastakhans-rumble" = "Rastakhan's Rumble";
+"the-boomsday-project" = "The Boomsday Project";
+"the-witchwood" = "The Witchwood";
+"kobolds-and-catacombs" = "Kobolds and Catacombs";
+"knights-of-the-frozen-throne" = "Knights of the Frozen Throne";
+"journey-to-ungoro" = "Journey to Un'Goro";
+"mean-streets-of-gadgetzan" = "Mean Streets of Gadgetzan";
+"one-night-in-karazhan" = "One Knight in Karazhan";
+"whispers-of-the-old-gods" = "Whispers of the Old Gods";
+"league-of-explorers" = "League of Explorers";
+"the-grand-tournament" = "The Grand Tournament";
+"blackrock-mountain" = "Blackrock Mountain";
+"goblins-vs-gnomes" = "Goblins vs Gnomes";
+"naxxramas" = "Curse of Naxxramas";
+"legacy" = "Legacy";
+
+// Class
+"demonhunter" = "Demon Hunter";
+"druid" = "Druid";
+"hunter" = "Hunter";
+"mage" = "Mage";
+"paladin" = "Paladin";
+"priest" = "Priest";
+"rogue" = "Rogue";
+"shaman" = "Shaman";
+"warlock" = "Warlock";
+"warrior" = "Warrior";
+"neutral" = "Neutral";
+
+// Card Type
+"hero" = "Hero";
+"minion" = "Minion";
+"spell" = "Spell";
+"weapon" = "Weapon";
+
+// Minion Type
+"murloc" = "Murloc";
+"demon" = "Demon";
+"mech" = "Mech";
+"elemental" = "Elemental";
+"beast" = "Beast";
+"totem" = "Totem";
+"pirate" = "Pirate";
+"dragon" = "Dragon";
+"all" = "All";
+"quilboar" = "Quilboar";
+
+// Spell School
+"arcane" = "Arcane";
+"fire" = "Fire";
+"frost" = "Frost";
+"nature" = "Nature";
+"holy" = "Holy";
+"shadow" = "Shadow";
+"fel" = "Fel";
+
+// Rarity
+"common" = "Common";
+"free" = "Free";
+"rare" = "Rare";
+"epic" = "Epic";
+"legendary" = "Legendary";
+
+// Keyword
+"taunt" = "Taunt";
+"spellpower" = "Spell Damage";
+"divine-shield" = "Divine Shield";
+"charge" = "Charge";
+"secret" = "Secret";
+"stealth" = "Stealth";
+"battlecry" = "Battlecry";
+"freeze" = "Freeze";
+"windfury" = "Windfury";
+"deathrattle" = "Deathrattle";
+"combo" = "Combo";
+"overload" = "Overload";
+"silence" = "Silence";
+"counter" = "Counter";
+"immune" = "Immune";
+"spare-part" = "Spare Parts";
+"inspire" = "Inspire";
+"discover" = "Discover";
+"quest" = "Quest";
+"poisonous" = "Poisonous";
+"adapt" = "Adapt";
+"lifesteal" = "Lifesteal";
+"recruit" = "Recruit";
+"echo" = "Echo";
+"rush" = "Rush";
+"overkill" = "Overkill";
+"startofgamekeyword" = "Start of Game";
+"modular" = "Magnetic";
+"evilzug" = "Lackey";
+"twinspell" = "Twinspell";
+"mega-windfury" = "Mega-Windfury";
+"reborn" = "Reborn";
+"empower" = "Invoke";
+"outcast" = "Outcast";
+"spellburst" = "Spellburst";
+"sidequest" = "Sidequest";
+"corrupt" = "Corrupt";
+"start-of-combat" = "Start of Combat";
+"questline" = "Questline";
+"trade" = "Tradeable";
+"frenzy" = "Frenzy";
+"spellpowernature" = "Nature Spell Damage";
+"blood-gem" = "Blood Gem";
+
+// Keyword Comment
+"taunt-comment" = "Enemies must attack minions that have Taunt.";
+"spellpower-comment" = "Your spells deal extra damage.";
+"divine-shield-comment" = "The first time a Shielded minion takes damage, ignore it.";
+"charge-comment" = "Can attack immediately.";
+"secret-comment" = "Hidden until a specific action occurs on your opponent's turn.";
+"stealth-comment" = "Can't be attacked or targeted until it attacks.";
+"battlecry-comment" = "Does something when you play it from your hand.";
+"freeze-comment" = "Frozen characters lose their next attack.";
+"windfury-comment" = "Can attack twice each turn.";
+"deathrattle-comment" = "Does something when it dies.";
+"combo-comment" = "A bonus if you already played a card this turn.";
+"overload-comment" = "Cards with Overload limit your mana next turn.";
+"silence-comment" = "Removes all card text and enchantments.";
+"counter-comment" = "A card that is Countered has no effect.";
+"immune-comment" = "Immune characters can't be damaged.";
+"spare-part-comment" = "Spare Parts are 1-Cost spells with minor effects.";
+"inspire-comment" = "Does something after you use your Hero Power.";
+"discover-comment" = "Choose one of three cards to add to your hand.";
+"quest-comment" = "Starts in your hand. Complete for a reward.";
+"poisonous-comment" = "Destroy any minion damaged by this.";
+"adapt-comment" = "Choose one of 3 bonuses.";
+"lifesteal-comment" = "Damage dealt also heals your hero.";
+"recruit-comment" = "Summon a minion from your deck.";
+"echo-comment" = "Repeatable the turn you play this. Copies can't cost less than (1).";
+"rush-comment" = "Can attack minions immediately.";
+"overkill-comment" = "Deal excess damage on your turn for a bonus.";
+"startofgamekeyword-comment" = "Does something before the first turn.";
+"modular-comment" = "Play this to the left of a Mech to fuse them together!";
+"evilzug-comment" = "Lackeys are 1-Cost minions with Battlecries.";
+"twinspell-comment" = "Can be cast twice.";
+"mega-windfury-comment" = "Can attack four times each turn.";
+"reborn-comment" = "Resurrects with 1 Health the first time it dies.";
+"empower-comment" = "Use Galakrond's Power.";
+"outcast-comment" = "A bonus if played as the left- or right-most card in hand.";
+"spellburst-comment" = "A one-time effect after you cast a spell.";
+"sidequest-comment" = "Complete for a reward.";
+"corrupt-comment" = "Upgrades in hand after you play a card that costs more.";
+"start-of-combat-comment" = "Does something at the start of the Combat Phase.";
+"questline-comment" = "Starts in your hand. Complete for a reward, up to 3 times!";
+"trade-comment" = "Drag this into your deck to spend 1 Mana and draw a new card.";
+"frenzy-comment" = "A one-time effect after this survives damage.";
+"spellpowernature-comment" = "Your Nature spells deal extra damage.";
+"blood-gem-comment" = "A spell that gives a friendly minion +1/+1.";
+
+// Card Back Sort Category
+"basic" = "Basic";
+"fireside" = "Fireside";
+"achieve" = "Achievements";
+"heroes" = "Heroes";
+"season" = "Seasonal";
+"legend" = "Legend";
+"esports" = "Esports";
+"game_license" = "Gaems";
+"promotion" = "Promotion";
+"pre_purcahse" = "Pre-Purchase";
+"blizzard" = "Blizzard";
+"golden" = "Golden";
+"events" = "Events";
