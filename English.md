@@ -14,8 +14,8 @@ HSDict is Hearthstone card information search application using the [Blizzard Op
 ## Feature
 
 > **Reflect the latest update**
-> - Set: United in Stormwind
-> - Keyword: Questline, Tradeable
+> - Set: Fractured in Alterac Valley
+> - Keyword: Honorable Kill
 
 You can easily find the card information of Hearthstone you want with various filter functions and simple touch-based operation!
 
